@@ -21,15 +21,15 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:text="text01" />
-        <TextView
-            android:id="@+id/text02TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="32dp"
-            android:text="text02" />
+
     </LinearLayout>
 
-
+    <TextView
+        android:id="@+id/text02TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:text="text02" />
     <TextView
         android:id="@+id/text03TextView"
         android:layout_width="wrap_content"

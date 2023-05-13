@@ -16,27 +16,38 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/idEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:gravity="center"
-            android:text="id"
+            android:hint="id"
             android:textSize="20sp" />
 
         <EditText
+            android:id="@+id/text01EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:gravity="center"
-            android:text="text01"
+            android:hint="text01"
             android:textSize="20sp" />
 
         <EditText
+            android:id="@+id/text02EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             android:gravity="center"
-            android:text="text02"
+            android:hint="text02"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/text03EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:hint="text03"
             android:textSize="20sp" />
     </LinearLayout>
 
